@@ -24,7 +24,7 @@ int main() {
         etat = scanf("%f", &b);
         
 
-        while((c = getchar()) != '\n'&& c != EOF);
+        while((c = getchar()) != '\n' && c != EOF);
 
         if (etat != 1) {
             printf("Saisie invalide: veuillez entrer un nombre valide !\");
