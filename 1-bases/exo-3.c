@@ -27,8 +27,7 @@ int main() {
         while((c = getchar()) != '\n' && c != EOF);
 
         if (etat != 1) {
-            printf("Saisie invalide: veuillez entrer un nombre valide !\");
-            printf("Saisie invalide: veuillez entrer un nombre valide !\");
+            printf("Saisie invalide: veuillez entrer un nombre valide !\n");
         } 
 
     } while(etat != 1);

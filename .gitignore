@@ -1,0 +1,28 @@
+# Binaires compilés (sans extension)
+1-bases/exo-*
+2-variables/exo-*
+3-controles/exo-*
+4-fonctions/exo-*
+5-tableaux/exo-*
+6-chaines/exo-*
+7-pointeurs/exo-*
+8-structures/exo-*
+9-fichiers/exo-*
+
+# Fichiers temporaires
+*.o
+*.obj
+*.out
+*.exe
+*.app
+
+# Éditeurs / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
