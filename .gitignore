@@ -2,26 +2,20 @@
 *.o
 *.obj
 *.out
-*.exe
-*.app
 
-# Éditeurs / IDE
+# Executables
+exo-*
+programme
+a.out
+
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Ignorer tous les fichiers sans extension dans tous les sous-dossiers
-# (Cela ciblera vos exécutables comme 1-bases/exo-1)
-*/*
-!*.*
-!*/
-
-# Ignorer également les fichiers PDF générés si nécessaire
+# Fichiers générés
 *.pdf
-
+*.log
